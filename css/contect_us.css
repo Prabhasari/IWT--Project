@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e5f4e3;
+}
+
+.icon{
+    width: 28px;
+    margin-right: 1rem;
+}
+
+
+
+.socialmedia
+{
+    width: 50px;
+    padding-right: 12px;
+}
+
+.containerC
+{
+
+    padding: 2rem;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: 1600px 750px;
+}
+
+.form{
+    background-color: rgb(5, 44, 77);
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 200%;
+    max-width: 900px;
+    box-shadow: 0 0 5px 1px rgb(2, 9, 1); /*--------------------------*/
+    z-index: 1000;  /*-------------------------*/
+    border-radius:30px;
+    
+    
+   
+}
+
+.contact-info .title
+{
+    color: #0e0101;
+    font-weight: 650;
+    font-size: 2.5rem;
+    line-height :1;
+    margin-top:1rem;
+    margin-bottom:2rem;
+    padding :12px;
+
+}
+
+.contact-info.paragraph1
+{
+    color: #333;
+    margin: 1.5rem 0 2rem 0;    
+    
+}
+
+.info
+{
+    margin: 5px; 
+    margin-top: 50px;
+    padding :5px;
+
+}
+
+.information
+{
+ 
+  display:flex;
+  padding:2%;
+  font-size: 18px; 
+    
+}    
+
+.cardsubmit a{
+    font-size: 20px;
+    color: black;
+}
+
+.contact-info
+{
+    
+    width:100%;
+    padding :20px;
+    background-color: #ffffff;
+
+}
+    
+
+.social-media
+{
+    margin-top: 70px;
+    margin-bottom: 8px;
+    margin-left: 10px;
+    
+}
+
+.social-media.h3
+{
+    margin-top: 2rem;
+    text-align: center;
+    font-weight: 650;
+
+
+}
+
+.social-icons
+{
+    padding-top: 10px;
+}
+
+
+.contact-form
+{
+    padding :20px;
+}
+
+.contact-form.title
+{
+    text-align: center;
+}
+
+input[type=text],[type=email],[type=tel]
+{
+    width: 100%;
+    padding: 8px 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin: 5px 0; 
+}
+
+input[type=submit] {
+    width: 25%;
+    background-color: #b91a1a;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    float: right;
+    
+
+  }
+
+  .btn:hover
+  {
+    transform:scale(1.10);
+  }
+
+  .socialmedia:hover
+  {
+    transform:scale(1.10);
+  }
+
+  textarea
+  {
+    width: 100%;
+    padding: 8px 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin: 8px 0; 
+    resize: none;   /*-------------------*/
+    height:280px;   /*-------------------*/
+
+  }
+
+  
+
+
+

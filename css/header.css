@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Google Sans Regular";
+    box-sizing: border-box;
+}
+
+header {
+    width:100%;
+    height: 100px;
+    background: #11101b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+.logo{
+    font-size: 5px;
+    font-weight: bold;
+    color:#fefefe;
+}
+.hamburger{
+    display: none;
+}
+.nav-bar ul{
+    display: flex;
+}
+.nav-bar ul li a{
+    display: block;
+    color: #fefefe;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: 0.2s;
+    margin: 0 5px;
+}
+.nav-bar ul li a:hover{
+    color: #11101b;
+    background: #fefefe;
+}
+.nav-bar ul li a.active{
+    color: #11101b;
+    background: #fefefe;
+}
+
+
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.footer{
+    bottom: 10px;
+    width: 100%;
+    background: #11101b;
+    padding: 70px 0;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+     
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #fefefe;
+    margin-bottom: 25px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background: #fefefe;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #fefefe;
+    display: block;
+    margin-bottom: 10px;
+    transition: all .3s ease;
+}
+.footer-col ul li a:hover{
+    color: #fefefe;
+    padding-left: 6px;
+}
+.footer-col .social-link a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background: #fefefe;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #0a0a0a;
+    transition: all .5s ease;
+}
+.footer-col .social-link a:hover{
+    color:#11101b;
+    background: #fefefe;
+
+}
+
+
+.footer-col .payment-link a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background: #fefefe;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #0a0a0a;
+    transition: all .5s ease;
+}
+.footer-col .payment-link a:hover{
+    color:#11101b;
+    background: #fefefe;
+
+}
+
+@media(max-width:767px){
+    .footer-col{
+        width:100%;
+    }
+}

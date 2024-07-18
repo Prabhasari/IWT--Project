@@ -1,0 +1,71 @@
+body{
+    background-color: #e5f4e3 ;
+}
+
+.terms-box
+{
+    max-width: 460px;
+    background-color: black;
+    color:aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    padding :60px 30px;
+}
+
+.terms-text
+{
+    padding:0 20px;
+    height:400px;
+    overflow-y: auto;
+    font-size: 14px;
+    font-weight: 500;
+    color:aliceblue;
+}
+
+.terms-text h2
+{
+    text-transform: uppercase;
+}
+
+.terms-box h4
+{
+    font-size: 13px;
+    text-align: center;
+    padding:0 40px;
+}
+
+.terms-box h4 span
+{
+    color: rgb(152, 11, 11);
+}
+
+.button
+{
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+.btn
+{
+
+    height:50px;
+    width:30%;
+    border:0;
+    border-radius: 6px;
+    font-size: 19px;
+    font-weight: 500;
+    color:aliceblue;
+    transition: .3s linear;
+    cursor:pointer;
+
+}
+
+.red-btn
+{
+    background-color: rgb(156, 10, 39);
+}
+
+.gray-btn
+{
+    background-color: rgb(51, 45, 45);
+}
+

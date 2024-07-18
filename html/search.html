@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="../css/search.css">
+    <script src="../javascript/search.js"></script>
+    <link rel="stylesheet" href="../css/header.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header>
+        <div class="logo"><img src="../photos/LOGO SHOP.png" width="150px" height = "150px"></div> 
+          <div class="hamburger">
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+          </div>
+          <nav class="nav-bar">
+              <ul>
+                  <li>
+                      <a href="../index.php" >Home</a>
+                  </li>
+                  <li>
+                      <a href="about.html">About_Us</a>
+                  </li>
+                  <li>
+                      <a href="../track.php">Track My Order</a>
+                  </li>
+                  <li>
+                      <a href="faq1.html">FAQ</a>
+                  </li>
+                  <li>
+                      <a href="../login.php">Login</a>
+                  </li>
+                  <li>
+                      <a href="../signup.php">Sign Up</a>
+                  </li>
+              
+              <li>
+                  <a href="search.html" class="active"><i class='bx bx-search'></i></a>
+          
+                  </li>
+          <li>
+              <li><a href="../profile.php"><i class='bx bx-user-circle' id = "pro"></i></a></li>
+          </li>
+
+          <li>
+              <a href="../logout.php">Logout</a>
+              </li>
+
+          </ul>
+          </nav>
+
+          </div>
+      </header>
+
+
+    <div class="searchcontainer-fluid">
+        <div class="searchcontainer">
+            <div class="search">
+                <h1>All Products</h1>
+                <input type="text" name="" id="find" placeholder="Search here....." onkeyup="search()">
+            </div>
+
+            <div class="product-list">
+                <div class="product">
+                    <img src="photos/dress/1.png" alt="1" class="product-img">
+                    <h2 class="product-title">Ladies offical blouse</h2>
+                    <span class="price">2100.00</span>
+                    <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+            
+                <div class="product">
+                    <img src="photos/dress/2.png" alt="1" class="product-img">
+                    <h2 class="product-title">huf & dee crew neck plain ladies t-shirt</h2>
+                    <span class="price">1550.00</span>
+                    <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+            
+                <div class="product">
+                    <img src="photos/dress/3.png" alt="1" class="product-img">
+                    <h2 class="product-title">ladies casual dress</h2>
+                    <span class="price">2500.00</span>
+                    <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+            
+                <div class="product">
+                    <img src="photos/dress/4.png" alt="1" class="product-img">
+                <h2 class="product-title">men's black shirt</h2>
+                <span class="price">3200.00</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+            
+                <div class="product">
+                    <img src="photos/dress/5.png" alt="1" class="product-img">
+                <h2 class="product-title">white t-shirt</h2>
+                <span class="price">1900.00</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+            
+                <div class="product">
+                    <img src="photos/dress/6.png" alt="1" class="product-img">
+                <h2 class="product-title">men's casual wear</h2>
+                <span class="price">2500.00</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+            
+                <div class="product">
+                    <img src="photos/dress/7.png" alt="1" class="product-img">
+                <h2 class="product-title">ladies official frock</h2>
+                <span class="price">3100.00</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+            
+                <div class="product">
+                    <img src="photos/shoes/1.png" alt="1" class="product-img">
+                <h2 class="product-title">men sports shoes</h2>
+                <span class="price">7850.00</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+
+                <div class="product">
+                <img src="photos/shoes/2.png" alt="1" class="product-img">
+                <h2 class="product-title">brand classic men's sandals</h2>
+                <span class="price">5200.00</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+            
+                <div class="product">
+                    <img src="photos/shoes/3.png" alt="1" class="product-img">
+                    <h2 class="product-title">men's casual sports shoes</h2>
+                    <span class="price">5600.00</span>
+                    <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+            
+                <div class="product">
+                    <img src="photos/shoes/4.png" alt="1" class="product-img">
+                <h2 class="product-title">fashion casual shoes</h2>
+                <span class="price">3800.00</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+            
+                <div class="product">
+                    <img src="photos/shoes/5.png" alt="1" class="product-img">
+                <h2 class="product-title">big size sneakers</h2>
+                <span class="price">6900.00</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+            
+                <div class="product">
+                    <img src="photos/shoes/6.png" alt="1" class="product-img">
+                <h2 class="product-title">women leather shoes</h2>
+                <span class="price">5300.00</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+            
+                <div class="product">
+                    <img src="photos/shoes/7.png" alt="1" class="product-img">
+                <h2 class="product-title">women's casual sports shoes</h2>
+                <span class="price">6500.00</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+            
+                <div class="product">
+                    <img src="photos/shoes/8.png" alt="1" class="product-img">
+                <h2 class="product-title">summer slippers</h2>
+                <span class="price">2000.00</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+            
+                <div class="product">
+                    <img src="photos/Jewelry/1.png" alt="1" class="product-img">
+                <h2 class="product-title">traditional set bangles  </h2>
+                <span class="price">4200.00</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+            
+                <div class="product">
+                    <img src="photos/Jewelry/2.png" alt="1" class="product-img">
+                <h2 class="product-title">plain gold chain and earrings</h2>
+                <span class="price">3500.00</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+            
+                <div class="product">
+                    <img src="photos/Jewelry/3.png" alt="1" class="product-img">
+                <h2 class="product-title">gold nacklace</h2>
+                <span class="price">2500.00</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+            
+                <div class="product">
+                    <img src="photos/Jewelry/4.png" alt="1" class="product-img">
+                <h2 class="product-title">silver nose pin</h2>
+                <span class="price">800.00</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+            
+                <div class="product">
+                    <img src="photos/Jewelry/5.png" alt="1" class="product-img">
+                <h2 class="product-title">white stone gold ring</h2>
+                <span class="price">1900.00</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+            
+                <div class="product">
+                    <img src="photos/Jewelry/6.png" alt="1" class="product-img">
+                    <h2 class="product-title">silver ring</h2>
+                    <span class="price">900.00</span>
+                    <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+            
+                <div class="product">
+                    <img src="photos/Jewelry/7.png" alt="1" class="product-img">
+                <h2 class="product-title">white stone swirl ring</h2>
+                <span class="price">2100.00</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+            
+                <div class="product">
+                    <img src="photos/Jewelry/8.png" alt="1" class="product-img">
+                <h2 class="product-title">gold bracelet</h2>
+                <span class="price">1800.00</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+            
+                <div class="product">
+                    <img src="photos/Watch/1.png" alt="1" class="product-img">
+                    <h2 class="product-title">Xiamoi bluetooth smart watch</h2>
+                    <span class="price">8700.00</span>
+                    <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+            
+                <div class="product">
+                    <img src="photos/Watch/2.png" alt="1" class="product-img">
+                <h2 class="product-title">olevs men's watches</h2>
+                <span class="price">6200.00</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+            
+                <div class="product">
+                    <img src="photos/Watch/4.png" alt="1" class="product-img">
+                <h2 class="product-title">luxury men watches</h2>
+                <span class="price">12500.00</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+            
+                <div class="product">
+                    <img src="photos/Watch/5.png" alt="1" class="product-img">
+                <h2 class="product-title">men's stainless steel watches</h2>
+                <span class="price">3200.00</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+            
+                <div class="product">
+                    <img src="photos/Watch/6.png" alt="1" class="product-img">
+                <h2 class="product-title">women's pink watches</h2>
+                <span class="price">2100.00</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+            
+                <div class="product">
+                    <img src="photos/Watch/7.png" alt="1" class="product-img">
+                <h2 class="product-title">luminous watches</h2>
+                <span class="price">6500.00</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+                </div>
+
+            </div>
+            
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col">
+                            <h4>Customer Care</h4>
+                            <ul>
+                                <li><a href="#">Help Center</a></li>
+                                <li><a href="#">How to</a></li>
+                                <li><a href="#">Return & Refunds</a></li>
+                                <li><a href="../contect_us.php">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>STOXIE</h4>
+                            <ul>
+                                <li><a href="../contect_us.php">Contect Us</a></li>
+                                <li><a href="faq1.html">FAQ</a></li>                           
+                                <li><a href="priv.html">Privacy Policy</a></li>
+                                <li><a href="term.html">Trems & Condition</a></li>
+                            </ul>
+                        </div> 
+                         
+                        <div class="footer-col">
+                            <h4>Follow Us</h4>
+                            <div class="social-link">
+                                <a href="https://www.facebook.com/profile.php?id=100093329599412&mibextid=LQQJ4d"><i id="pics" class='bx bxl-facebook-circle'></i></a>
+                                <a href="https://instagram.com/stoxie.official?igshid=OGQ5ZDc2ODk2ZA=="><i id="pics" class='bx bxl-instagram-alt'></i></a>
+                                <a href="#"><i id="pics" class='bx bxl-twitter' ></i></a>
+                                <a href="#"><i id="pics" class='bx bxl-youtube' ></i></a>
+                            </div>
+                        </div>  
+                        <div class="footer-col">
+                            <h4>Payement Method</h4>
+                            <div class="payment-link">
+                                <a href="../card.php"><i id="pics" class='bx bxl-visa'></i></a>
+                                <a href="../card.php"><i id="pics" class='bx bxl-mastercard' ></i></a>
+                                <a href="../card.php"><i id="pics" class='bx bxs-wallet'></i></a>
+                            </div>
+                        </div>      
+                    </div>
+                </div>
+            </div>
+    
+        </footer>
+</body>
+</html>

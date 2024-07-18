@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Google Sans Regular";
+  box-sizing: border-box;
+}
+
+body {
+
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  background:fixed;
+  background-repeat: no-repeat;
+  background:url("../photos/background2.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  padding-top: 20px;
+
+}
+
+.signup_input_box #DOB{
+  color: #fff;
+}
+
+.signupcontainer {
+  position: relative;
+  padding-top: 20px;
+  width: 100%;
+  max-width: 450px;
+  height: 1080px;
+  background: transparent;
+  border-radius: 20px;
+  border: 2px solid rgba(257, 257, 257, 7);
+  backdrop-filter: blur(20px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.signup-main-box {
+
+  padding-top: 50px;
+  padding: 50px;
+  width: 100%;
+}
+
+.signup-main-box h1 {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.signup_input_box {
+  position: relative;
+  height: 40px;
+  width: 100%;
+  border-bottom: 2px solid #ffffff;
+  margin: 32px 0;
+}
+
+.signup_input_box label {
+  position: absolute;
+  top: 50%;
+  left: 6px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 18px;
+  transition: all ease 0.4s;
+}
+
+.signup_input_box input {
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  font-weight: 600;
+  color: #ffffff;
+  padding: 0 30px 0 6px;
+}
+
+.signup_input_box .input-icon {
+  position: absolute;
+  right: 9px;
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 55px;
+}
+
+input:focus~label,
+input:valid~label {
+  top: -3px;
+}
+
+:root {
+  --primary-color: rgb(0, 0, 0);
+}
+.radio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7vh;
+  padding-bottom: 20px;
+}
+.radio-title-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.radio-input-container {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  margin: 0.5rem;
+}
+.radio-input-container input {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  cursor: pointer;
+  z-index: index 2;
+  opacity: 0;
+}
+.radio-input-container .radio-title {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border: 2px solid var(--primary-color);
+  border-radius: 8px;
+  transition: all 300ms ease;
+}
+.radio-input-container i {
+  color: var(--primary-color);
+  font-size: 2rem;
+}
+.radio-input-container label {
+  color: var(--primary-color);
+  font-size: 8px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+input:checked + .radio-title {
+  background-color: var(--primary-color);
+  box-shadow: 0 0 12px var(--primary-color);
+}
+input:hover + .radio-title {
+  box-shadow: 0 0 12px var(--primary-color);
+}
+input:checked + .radio-title i,
+input:checked + .radio-title label {
+  color: white;
+}
+
+.terms {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 0;
+  font-size: 10px;
+}
+
+p {
+  font-size: 15px;
+  padding-right: 130px;
+}
+
+.terms label {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.terms input {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+}
+.terms label span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: 3px solid #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.terms label span::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  width: 10px;
+  height: 30px;
+  border: solid #00ff0a;
+  border-width: 0 6px 6px 0;
+  transform: rotate(45deg);
+  opacity: 0;
+  transition: width 0.5s, height 0.5s, opacity 0.5s;
+}
+input:checked ~ span:after {
+  width: 10px;
+  height: 20px;
+  opacity: 1;
+}
+
+.login-btn {
+  width: 100%;
+  height: 45px;
+  background: #ffffff;
+  border-radius: 30px;
+  font-size: 17px;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  color: #000000;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.login-register {
+  text-align: center;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 35px 0 10px;
+}
+
+.login-register p a {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-left: 5px;
+}
+.login-register p a:hover {
+  text-decoration: underline;
+}
+
+.signup_input_box.error {
+  color: red;
+  font-size: 16px;
+  margin-top: 3px;
+}
+
+.signup_input_box .success input {
+  border-color: green;
+}
+
+.signup_input_box .error input {
+  border-color: red;
+}
+
+.error {
+  color: red;
+  font-size: 16px;
+  margin-top: 3px;
+}
+
+.success {
+  color: green;
+  font-size: 16px;
+  margin-top: 3px;
+}

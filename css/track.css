@@ -1,0 +1,70 @@
+body {
+             text-align: center;
+             background-color:  #e5f4e3;
+             background-size:cover;
+             background-repeat:no-repeat;
+             
+             font-family: Arial, sans-serif;
+             margin: 0;
+             padding: 0;
+         }
+
+       header {
+             background-color: #333;
+             color: #fff;
+             padding: 20px;
+         }
+
+       footer {
+             background-color: #333;
+             color: #fff;
+             padding: 10px;
+             text-align: center;
+         }
+
+       /* Tracking Info Section */
+      #tracking-info {
+            margin-right: 10px;
+             
+             margin-bottom: 30px;
+         }
+
+       h2 {
+             margin-top: 0;
+         }
+
+       #tracking-form {
+             position:absolute;
+             top:50%;
+             left:50%;
+             transform:translate(-50%,-50%);
+             display: flex;
+             margin-bottom: 10px;
+         }
+
+       label {
+            text-align: center;
+            margin-right: 10px;
+         }
+
+      input[type="text"] {
+             padding: 5px;
+             font-size: 16px;
+         }
+
+      #Delivery_ID{
+             border:#333 solid;
+             border-width:.2em;
+             border-radius: .7em 0 0 .7em;
+             padding: .2em .2em .2em .5em;
+             width: 225px;
+        }
+
+      button {
+        text-align: center;
+             padding: 5px 10px;
+             background-color: #333;
+             color: #fff;
+             border: none;
+             cursor: pointer;
+        }

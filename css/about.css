@@ -1,0 +1,54 @@
+
+body
+{
+    background: url(../photos/front-view-cyber-monday-composition.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+   
+    
+} 
+.inner-container
+{
+    width: 60%;
+    float: right;
+    padding: 100px;
+}
+.inner-container h1
+{
+    color: black;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.text
+{
+    font-size: 20px;
+    color: black;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+@media screen and (max-width:1000px) {
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}

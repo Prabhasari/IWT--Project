@@ -1,0 +1,92 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    transition: all .2s linear;
+}
+
+body{
+ background-color: #e5f4e3;
+
+}
+.cardcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    padding-top: 150px;
+    min-height: 100hv;
+    padding-bottom: 70px;
+}
+
+.cardcontainer form{
+    padding: 20px;
+    width: 700px;
+    background: none;
+    box-shadow: 0 5px 10px rgba(0,0,0,1);
+}
+
+.cardcontainer form .cardrow{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.cardcontainer form .cardrow .cardcol{
+    flex: 1 1 250px;
+}
+
+.cardcontainer form .cardrow .cardcol .cardtitle{
+    font-size: 20px;
+    color: #333;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.cardcontainer form .cardrow .cardcol .cardinputbox{
+    margin: 15px 0;
+}
+
+.cardcontainer form .cardrow .cardcol .cardinputbox span{
+    margin-bottom: 5px;
+    display: block;
+}
+
+.cardcontainer form .cardrow .cardcol .cardinputbox input{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: none;
+}
+
+.cardcontainer form .cardrow .cardcol .cardinputbox input:focus{
+    border:1px solid #000;  
+}
+
+.cardcontainer form .cardrow .cardcol .cardflex{
+    display: flex;
+    gap: 15px;
+}
+.cardcontainer form .cardrow .cardcol .cardflex .cardinputbox{
+    margin-top: 5px;
+}
+
+.cardcontainer form .cardsubmit{
+    width: 100%;
+    padding: 12px;
+    font-size:17px;
+    background: #333;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.cardcontainer form .cardsubmit:hover{
+    background-color: white;
+}
+
+.cardcontainer form .cardsubmit a{
+    color: black;
+}
